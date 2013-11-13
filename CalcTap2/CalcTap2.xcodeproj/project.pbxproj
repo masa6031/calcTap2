@@ -12,15 +12,17 @@
 		44569ADF18326236005EA50A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44569ADE18326236005EA50A /* UIKit.framework */; };
 		44569AE518326236005EA50A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44569AE318326236005EA50A /* InfoPlist.strings */; };
 		44569AE718326236005EA50A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569AE618326236005EA50A /* main.m */; };
-		44569AEB18326236005EA50A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569AEA18326236005EA50A /* AppDelegate.m */; };
 		44569AEE18326236005EA50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44569AEC18326236005EA50A /* Main.storyboard */; };
-		44569AF118326236005EA50A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569AF018326236005EA50A /* ViewController.m */; };
 		44569AF318326236005EA50A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44569AF218326236005EA50A /* Images.xcassets */; };
 		44569AFA18326236005EA50A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44569AF918326236005EA50A /* XCTest.framework */; };
 		44569AFB18326236005EA50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44569ADA18326236005EA50A /* Foundation.framework */; };
 		44569AFC18326236005EA50A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44569ADE18326236005EA50A /* UIKit.framework */; };
 		44569B0418326236005EA50A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44569B0218326236005EA50A /* InfoPlist.strings */; };
 		44569B0618326236005EA50A /* CalcTap2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569B0518326236005EA50A /* CalcTap2Tests.m */; };
+		44569B1118326AB2005EA50A /* gameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569B1018326AB2005EA50A /* gameViewController.m */; };
+		44569B1418326AEA005EA50A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569B1318326AEA005EA50A /* AppDelegate.m */; };
+		44569B1718326AF7005EA50A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44569B1618326AF7005EA50A /* ViewController.m */; };
+		44569B1B18326E0C005EA50A /* gauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 44569B1A18326E0C005EA50A /* gauge.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +44,20 @@
 		44569AE418326236005EA50A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44569AE618326236005EA50A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44569AE818326236005EA50A /* CalcTap2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcTap2-Prefix.pch"; sourceTree = "<group>"; };
-		44569AE918326236005EA50A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44569AEA18326236005EA50A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		44569AED18326236005EA50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44569AEF18326236005EA50A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44569AF018326236005EA50A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44569AF218326236005EA50A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44569AF818326236005EA50A /* CalcTap2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcTap2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44569AF918326236005EA50A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44569B0118326236005EA50A /* CalcTap2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcTap2Tests-Info.plist"; sourceTree = "<group>"; };
 		44569B0318326236005EA50A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44569B0518326236005EA50A /* CalcTap2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcTap2Tests.m; sourceTree = "<group>"; };
+		44569B0F18326AB2005EA50A /* gameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gameViewController.h; path = Classes/controller/gameViewController.h; sourceTree = "<group>"; };
+		44569B1018326AB2005EA50A /* gameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = gameViewController.m; path = Classes/controller/gameViewController.m; sourceTree = "<group>"; };
+		44569B1218326AEA005EA50A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		44569B1318326AEA005EA50A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		44569B1518326AF7005EA50A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/controller/ViewController.h; sourceTree = "<group>"; };
+		44569B1618326AF7005EA50A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/controller/ViewController.m; sourceTree = "<group>"; };
+		44569B1A18326E0C005EA50A /* gauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gauge.png; path = Resources/images/gauge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +117,15 @@
 		44569AE018326236005EA50A /* CalcTap2 */ = {
 			isa = PBXGroup;
 			children = (
-				44569AE918326236005EA50A /* AppDelegate.h */,
-				44569AEA18326236005EA50A /* AppDelegate.m */,
+				44569B1218326AEA005EA50A /* AppDelegate.h */,
+				44569B1318326AEA005EA50A /* AppDelegate.m */,
 				44569AEC18326236005EA50A /* Main.storyboard */,
-				44569AEF18326236005EA50A /* ViewController.h */,
-				44569AF018326236005EA50A /* ViewController.m */,
+				44569B1518326AF7005EA50A /* ViewController.h */,
+				44569B1618326AF7005EA50A /* ViewController.m */,
+				44569B0F18326AB2005EA50A /* gameViewController.h */,
+				44569B1018326AB2005EA50A /* gameViewController.m */,
 				44569AF218326236005EA50A /* Images.xcassets */,
+				44569B1818326DF5005EA50A /* Resources */,
 				44569AE118326236005EA50A /* Supporting Files */,
 			);
 			path = CalcTap2;
@@ -150,6 +158,22 @@
 				44569B0218326236005EA50A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44569B1818326DF5005EA50A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44569B1918326E01005EA50A /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44569B1918326E01005EA50A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				44569B1A18326E0C005EA50A /* gauge.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44569AF318326236005EA50A /* Images.xcassets in Resources */,
+				44569B1B18326E0C005EA50A /* gauge.png in Resources */,
 				44569AE518326236005EA50A /* InfoPlist.strings in Resources */,
 				44569AEE18326236005EA50A /* Main.storyboard in Resources */,
 			);
@@ -249,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44569AF118326236005EA50A /* ViewController.m in Sources */,
-				44569AEB18326236005EA50A /* AppDelegate.m in Sources */,
+				44569B1418326AEA005EA50A /* AppDelegate.m in Sources */,
+				44569B1118326AB2005EA50A /* gameViewController.m in Sources */,
+				44569B1718326AF7005EA50A /* ViewController.m in Sources */,
 				44569AE718326236005EA50A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
